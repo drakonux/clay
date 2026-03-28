@@ -117,7 +117,6 @@ export default function Heading({
 					<NavigationBar
 						triggerLabel="Navigation"
 						className={styles.nav}
-						spritemap="/images/icons/icons.svg"
 					>
 						{items.map((item) => (
 							<NavigationBar.Item

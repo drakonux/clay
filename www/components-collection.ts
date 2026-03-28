@@ -38,7 +38,7 @@ let componentsCollectionInstance: ReturnType<typeof createComponentsCollection> 
 function createComponentsCollection() {
 	return new Directory({
 		path: '..',
-		tsConfigPath: '../packages/tsconfig.json',
+		tsConfigPath: '../tsconfig.renoun.json',
 		loaders: {
 			ts: withSchema<ComponentSchema>((filePath) => {
 				// Use eval to bypass webpack's static analysis
